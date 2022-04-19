@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #22577E;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+header h1{
+    background-color: #22577E;
+}
+
+nav{
+    background-color: #FAFFAF;
+    border-radius: 1ch;
+    
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+
+
+article{
+    background-color: #5584AC;
+    grid-column:1/4;
+    text-align: center;
+    
+}
+
+aside{
+    background-color: #95D1CC;
+    padding: 40px;
+    grid-column:4/5;
+   
+}
+
+footer{
+    background-color: #22577E;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.menu{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around; 
+   padding: 0px 20px;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+
+}
+
+.menu>li{
+    float: left;
+}
+
+.menu li a{
+    background-color: #FAFFAF;
+    text-decoration: none;
+    padding: 20px 80px;
+    display: block;
+    color: black;
+    
+}
+
+.menu li a:hover{
+    background-color: #22577E;
+    
+    
+}
+
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
+}
+
+.menu li ul li ul{
+    right: 140px;
+}
