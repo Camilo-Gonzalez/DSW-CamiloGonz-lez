@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #22577E;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+header h1{
+    background-color: #22577E;
+}
+
+
+footer{
+    background-color: #22577E;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+
